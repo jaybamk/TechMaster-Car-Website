@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/dollarcar.ico" type="image/x-icon">
+  </head>
+  <body>
+    <!-- header -->
+
+    <section class="navigation">
+      <nav class="navbar navbar-expand-md navbar-light header">
+        <div class="container">
+          <a
+            class="navbar-brand logo-name"
+            style="color: white"
+            href="index.html"
+            ><img
+              src="img/opel.png"
+              alt="logo"
+              class="img-responsive img-circle logo"
+            />
+            OPEL BLOG</a
+          >
+
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            style="background-color: #484b66"
+            href=""
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarCollapse"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  href="index.html"
+                  class="nav-link active"
+                  style="color: rgb(156, 150, 150)"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#blog" class="nav-link" style="color: white">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" style="color: white">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link" style="color: white">Contact Us</a>
+              </li>
+            </ul>
+            <div>
+              <a class="subscribe-btn" type="submit" href="#subscribe"
+                >Subscribe</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- The first showcase -->
+    <div class="card text-white" style="border: 0px">
+      <img
+        src="img/car_img1.jpg"
+        alt="first-image"
+        class="img-responsive car-img"
+      />
+      <div class="card-img-overlay">
+        <p class="card-title car-title display-1" style="font-weight: 700">
+          Your Journey <br />Your Car <br />Ytour Way
+        </p>
+        <p class="car-text fs-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem
+          inventore laborum incidunt ipsum maiores voluptas recusandae
+          temporibus nulla accusantium, corporis quod voluptatem laboriosam.
+          Perferendis, eum. Dolores vel laboriosam odio accusantium!
+          Perspiciatis facere porro, architecto magnam mollitia consectetur
+          perferendis autem animi quo dolor non molestias tenetur, eum quas illo
+          blanditiis.
+        </p>
+        <a class="sub-btn bttn" href="#subscribe">
+          Subscribe
+          <svg
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.8357 9.16798L10.335 12.6687M21.1732 1.03586C21.2839 0.997649 21.4031 0.991361 21.5173 1.01771C21.6314 1.04407 21.7358 1.102 21.8186 1.18488C21.9013 1.26777 21.9591 1.37227 21.9853 1.48644C22.0115 1.60061 22.005 1.71985 21.9666 1.83052L15.0539 21.5861C15.0126 21.7042 14.9367 21.8072 14.8361 21.8816C14.7355 21.956 14.6149 21.9985 14.4898 22.0035C14.3648 22.0086 14.2412 21.9759 14.1349 21.9098C14.0287 21.8437 13.9448 21.7472 13.894 21.6328L10.1378 13.1821C10.075 13.0413 9.9624 12.9286 9.82156 12.8659L1.37087 9.10847C1.25686 9.05757 1.16073 8.97364 1.09491 8.86754C1.02908 8.76145 0.996579 8.63805 1.0016 8.51329C1.00663 8.38853 1.04895 8.26815 1.1231 8.16769C1.19724 8.06723 1.29981 7.99131 1.41755 7.94974L21.1732 1.03586Z"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- second showcase -->
+    <div id="blog">
+      <div class="row">
+        <div class="card mb-3 col-xs-12 col-lg-7" style="border: none">
+          <div class="lastest-title">Lastest</div>
+          <img
+            src="img/car_img3.jpg"
+            class="card-img-top sec-image"
+            alt="lastest-image"
+          />
+          <div class="card-body">
+            <p class="card-title" style="max-width: 200px">
+              <small>
+                <span style="font-weight: 500">By</span>
+                <span style="color: red">John Deo</span> l March 12, 2023
+              </small>
+            </p>
+            <p class="card-text blog-card-title">
+              Lorem ipsum dolor sit amet, consectetur aiscing elit, sed do
+              eiusmod tempor.
+            </p>
+            <p class="card-text">
+              <small class="text-muted blog-card-text"
+                >Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident. Duis aute irure dolor in reprehenderit
+                in voluptate v <br />Duis aute irure dolor in reprehenderit in
+                volusse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                occaecat cupidatat non proident.</small
+              >
+            </p>
+            <a class="blog-btn bttn" href="blog.html">Read more</a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-xs-12 trending">
+          <div class="blog-trending-title">
+            Trending Blogs
+            <p class="fs-5 see-all">
+              <a
+                href="All-Post.html"
+                style="text-decoration: none; color: black"
+                >See All</a
+              >
+            </p>
+          </div>
+          <div class="trending-blog">
+            <div class="mb-3 trending-blog-body hover-link">
+              <div class="card-body">
+                <p class="card-title">
+                  <small>
+                    <span style="font-weight: 500">By</span>
+                    <span style="color: red">John Deo</span> l March 23, 2023
+                  </small>
+                </p>
+                <p
+                  class="card-text blog-card-title"
+                  style="font-size: 30px; letter-spacing: -1px"
+                >
+                  Lorem ipsum dolor sit amet, consectetur aiscing.
+                </p>
+              </div>
+            </div>
+            <div class="mb-3 trending-blog-body hover-link-active">
+              <div class="card-body">
+                <p class="card-title">
+                  <small>
+                    <span style="font-weight: 500">By</span>
+                    <span style="font-weight: 700">John Deo</span> l March 12,
+                    2023
+                  </small>
+                </p>
+                <p
+                  class="card-text blog-card-title"
+                  style="font-size: 30px; letter-spacing: -1px"
+                >
+                  Lorem ipsum dolor sit amet, consectetur aiscing.
+                </p>
+              </div>
+            </div>
+            <div class="mb-3 trending-blog-body hover-link">
+              <div class="card-body">
+                <p class="card-title">
+                  <small>
+                    <span style="font-weight: 500">By</span>
+                    <span style="color: red">John Deo</span> l March 23, 2023
+                  </small>
+                </p>
+                <p
+                  class="card-text blog-card-title"
+                  style="font-size: 30px; letter-spacing: -1px"
+                >
+                  Lorem ipsum dolor sit amet, consectetur aiscing.
+                </p>
+              </div>
+            </div>
+            <div class="mb-3 trending-blog-body hover-link">
+              <div class="card-body">
+                <p class="card-title">
+                  <small>
+                    <span style="font-weight: 500">By</span>
+                    <span style="color: red">John Deo</span> l March 23, 2023
+                  </small>
+                </p>
+                <p
+                  class="card-text blog-card-title"
+                  style="font-size: 30px; letter-spacing: -1px"
+                >
+                  Lorem ipsum dolor sit amet, consectetur aiscing.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- third showcase -->
+
+    <div class="third-blog">
+      <div class="third-blog-title blog-trending-title">
+        New Technology
+        <sup
+          ><svg
+            width="40"
+            height="2"
+            viewBox="0 0 40 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="1" x2="40" y2="1" stroke="#232536" stroke-width="2" />
+          </svg>
+        </sup>
+        <p class="fs-5 see-all">
+          <a href="All-Post.html" style="text-decoration: none; color: black"
+            >See All</a
+          >
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img6.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">
+                A Review of Cars with Advanced Infotainment Systems
+              </p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img4.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">A Deep Dive into Sports Cars</p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img5.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">
+                Reviewing Cars with the Best Resale Value
+              </p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img7.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">
+                Reviewing Cars with the Best Resale Value
+              </p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr style="border: 1px solid #2325364d; margin: 0% 5%" />
+
+    <!-- fourth showcase BLOG -->
+
+    <div class="catergory-blog">
+      <div class="blog-trending-title">
+        All Category
+        <svg
+          width="44"
+          height="4"
+          viewBox="0 0 44 4"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2 2H42"
+            stroke="black"
+            stroke-width="3"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+      <div class="row text-center catergory-list-items">
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="catergory-list">
+            <img
+              src="img/car_img11.jpg"
+              alt="..."
+              class="center-block img-responsive catergory-list-image"
+            />
+            <p class="lead catergory-list-title">Car Review</p>
+            <p class="catergory-list-text">
+              Lorem ipsum dolor sit amet <br />consectetur. Urna dignissim ac
+              <br />egeendrerit in.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="catergory-list">
+            <img
+              src="img/car_img8.jpg"
+              alt="..."
+              class="center-block img-responsive catergory-list-image"
+            />
+            <p class="lead catergory-list-title">Maintenance Tips</p>
+            <p class="catergory-list-text">
+              Lorem ipsum dolor sit amet <br />consectetur. Urna dignissim ac
+              <br />egeendrerit in.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="catergory-list">
+            <img
+              src="img/car_img9.jpg"
+              alt="..."
+              class="center-block img-responsive catergory-list-image"
+            />
+            <p class="lead catergory-list-title">Car Modifications</p>
+            <p class="catergory-list-text">
+              Lorem ipsum dolor sit amet <br />consectetur. Urna dignissim ac
+              <br />egeendrerit in.
+            </p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-lg-3">
+          <div class="catergory-list">
+            <img
+              src="img/car_img10.jpg"
+              alt="..."
+              class="center-block img-responsive catergory-list-image"
+            />
+            <p class="lead catergory-list-title">Driving Tips</p>
+            <p class="catergory-list-text">
+              Lorem ipsum dolor sit amet <br />consectetur. Urna dignissim ac
+              <br />egeendrerit in.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- fifth showcase BLOG -->
+
+    <div class="row testimonial-blog">
+      <div class="col-md-5 col-xs-12">
+        <div class="testimonial-blog-text">
+          <p class="testimonial-title">TESTIMONIALS</p>
+          <p class="testimonial-subtitle">What people say about our blog</p>
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-1 col-xs-12">
+        <svg
+          width="2"
+          height="310"
+          viewBox="0 0 2 310"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="d-none d-md-block d-xs-none"
+        >
+          <line
+            opacity="0.4"
+            x1="1.19873"
+            y1="2.37096e-08"
+            x2="1.19872"
+            y2="310"
+            stroke="#FBF6EA"
+          />
+        </svg>
+        <hr
+          class="d-block d-md-none"
+          style="width: 100%; margin-bottom: 10%; height: 2px"
+        />
+      </div>
+      <div class="col-md-6 col-xs-12">
+        <div class="testimonial-profile">
+          <p class="testimonial-sub-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+
+          <div class="" style="display: inline-flex">
+            <img
+              src="img/profile_img2.jpg"
+              class="profile-img"
+              alt=""
+            />
+            <p class="profile-name" style="font-size: 24px; font-weight: 700">
+              Jonathan Vallem <br />
+              <small
+                class="text-muted"
+                style="
+                  font-family: Poppins;
+                  font-size: 16px;
+                  font-weight: 400;
+                  line-height: 28px;
+                  text-align: left;
+                "
+                >New York, <br />USA</small
+              >
+            </p>
+          </div>
+          <div
+            class="arrows"
+            style="position: absolute; right: 12%; display: inline"
+          >
+            <button class="arrow-left">
+              <svg
+                width="23"
+                height="16"
+                viewBox="0 0 23 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21.6045 9C22.1568 9 22.6045 8.55228 22.6045 8C22.6045 7.44772 22.1568 7 21.6045 7L21.6045 9ZM0.768353 7.29289C0.377829 7.68342 0.377829 8.31658 0.768352 8.7071L7.13231 15.0711C7.52284 15.4616 8.156 15.4616 8.54653 15.0711C8.93705 14.6805 8.93705 14.0474 8.54653 13.6569L2.88967 8L8.54653 2.34314C8.93705 1.95262 8.93705 1.31946 8.54653 0.928931C8.156 0.538407 7.52284 0.538406 7.13232 0.928931L0.768353 7.29289ZM21.6045 7L1.47546 7L1.47546 9L21.6045 9L21.6045 7Z"
+                  fill="#232536"
+                />
+              </svg>
+            </button>
+            <button class="arrow-right">
+              <svg
+                width="28"
+                height="16"
+                viewBox="0 0 28 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1 7C0.447715 7 0 7.44772 0 8C0 8.55228 0.447715 9 1 9V7ZM27.7071 8.70711C28.0976 8.31658 28.0976 7.68342 27.7071 7.29289L21.3431 0.928932C20.9526 0.538408 20.3195 0.538408 19.9289 0.928932C19.5384 1.31946 19.5384 1.95262 19.9289 2.34315L25.5858 8L19.9289 13.6569C19.5384 14.0474 19.5384 14.6805 19.9289 15.0711C20.3195 15.4616 20.9526 15.4616 21.3431 15.0711L27.7071 8.70711ZM1 9H27V7H1V9Z"
+                  fill="#232536"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sixth showcase BLOG -->
+
+    <div class="third-blog">
+      <div class="third-blog-title blog-trending-title">
+        New Technology
+        <sup
+          ><svg
+            width="40"
+            height="2"
+            viewBox="0 0 40 2"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line y1="1" x2="40" y2="1" stroke="#232536" stroke-width="2" />
+          </svg>
+        </sup>
+        <p class="fs-5 see-all">
+          <a href="blog.html" style="text-decoration: none; color: black"
+            >See All</a
+          >
+        </p>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img12.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">
+                A Review of Cars with Advanced Infotainment Systems
+              </p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img15.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">A Deep Dive into Sports Cars</p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img13.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">
+                Reviewing Cars with the Best Resale Value
+              </p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <div class="card new-tech">
+            <div class="tech-img-container">
+              <img
+                src="img/car_img14.jpg"
+                class="card-img-top tech-img"
+                alt="..."
+              />
+            </div>
+            <div class="card-body">
+              <p class="tech-review">
+                Reviewing Cars with the Best Resale Value
+              </p>
+              <img src="img/profile_img.jpg" class="profile-img" alt="" />
+              <p class="profile-name">
+                Dansteen <br />
+                <small class="text-muted">Jan 10, 2024 ∙ 3 min read</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer section -->
+
+    <div class="footer">
+      <div>
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+            <a
+              class="navbar-brand logo-name"
+              style="color: white"
+              href="index.html"
+              ><img
+                src="img/opel.png"
+                alt="logo"
+                class="img-responsive img-circle logo"
+              />
+              OPEL BLOG</a
+            >
+
+            <a
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+              style="
+                border: none;
+                color: #7f8196;
+                font-weight: 200;
+                font-size: 17px;
+                cursor: pointer;
+              "
+            >
+              Menu
+            </a>
+
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarCollapse"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    href="index.html"
+                    class="nav-link active"
+                    style="color: rgb(156, 150, 150); text-align: center"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="#blog"
+                    class="nav-link"
+                    style="color: white; text-align: center"
+                    >Blogs</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="color: white; text-align: center"
+                    >About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="color: white; text-align: center"
+                    >Contact Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="color: white; text-align: center"
+                    >Privacy Policies</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="subcribe-via-email text-white row" id="subscribe">
+        <div class="via-email-description col-lg-6 col-xs-12">
+          Subscribe to our news letter to get latest updates and news
+        </div>
+        <div class="via-email-form col-lg-6 col-xs-12">
+          <form class="row">
+            <div class="col-xs-12 col-md-8">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="example@email.com"
+              />
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <button type="submit" class="via-sub-btn bttn">
+                Subscribe
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 22 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.8357 9.16798L10.335 12.6687M21.1732 
+                    1.03586C21.2839 0.997649 21.4031 0.991361 21.5173 
+                    1.01771C21.6314 1.04407 21.7358 1.102 21.8186 
+                    1.18488C21.9013 1.26777 21.9591 1.37227 21.9853 
+                    1.48644C22.0115 1.60061 22.005 1.71985 21.9666 
+                    1.83052L15.0539 21.5861C15.0126 21.7042 14.9367 
+                    21.8072 14.8361 21.8816C14.7355 21.956 14.6149 
+                    21.9985 14.4898 22.0035C14.3648 22.0086 14.2412 
+                    21.9759 14.1349 21.9098C14.0287 21.8437 13.9448 
+                    21.7472 13.894 21.6328L10.1378 13.1821C10.075 
+                    13.0413 9.9624 12.9286 9.82156 12.8659L1.37087 
+                    9.10847C1.25686 9.05757 1.16073 8.97364 1.09491 
+                    8.86754C1.02908 8.76145 0.996579 8.63805 1.0016 
+                    8.51329C1.00663 8.38853 1.04895 8.26815 1.1231 
+                    8.16769C1.19724 8.06723 1.29981 7.99131 1.41755 7.94974L21.1732 1.03586Z"
+                    stroke="white"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="socialmedia-link-address text-white">
+        <p class="address text-muted">
+          Finstreet 118 2561 abctown <br />
+          example@femail.com 001 21345 442
+        </p>
+        <div class="socialmedia-link-container">
+          <svg width="180" height="18" viewBox="0 0 180 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_11_231)">
+            <path d="M20 9.01472C20 4.06461 15.5229 0.0517578 10 0.0517578C4.47715 0.0517578 0 4.06461 0 9.01472C0 13.4883 3.65684 17.1964 8.4375 17.8688V11.6056H5.89844V9.01472H8.4375V7.04007C8.4375 4.79373 9.93047 3.55291 12.2146 3.55291C13.3084 3.55291 14.4531 3.72797 14.4531 3.72797V5.9337H13.1922C11.95 5.9337 11.5625 6.62465 11.5625 7.33416V9.01472H14.3359L13.8926 11.6056H11.5625V17.8688C16.3432 17.1964 20 13.4883 20 9.01472Z" fill="white"/>
+            </g>
+            <g clip-path="url(#clip1_11_231)">
+            <path d="M59.6243 16.2973C67.1696 16.2973 71.2978 10.693 71.2978 5.83443C71.2978 5.67687 71.2938 5.51582 71.286 5.35827C72.0891 4.83774 72.7821 4.193 73.3325 3.45434C72.5846 3.75258 71.7906 3.94736 70.9774 4.03203C71.8336 3.57206 72.4746 2.84947 72.7817 1.99821C71.9763 2.42603 71.0955 2.72783 70.1771 2.89065C69.5582 2.3013 68.74 1.91108 67.8489 1.78032C66.9578 1.64956 66.0435 1.78555 65.2473 2.16726C64.4511 2.54896 63.8174 3.15513 63.4441 3.89204C63.0708 4.62895 62.9787 5.45556 63.1821 6.24406C61.5513 6.17071 59.9558 5.79099 58.4992 5.12952C57.0425 4.46805 55.7573 3.53959 54.7267 2.40434C54.2029 3.21379 54.0426 4.17164 54.2784 5.0832C54.5142 5.99477 55.1284 6.79166 55.9962 7.31191C55.3447 7.29338 54.7075 7.13616 54.1372 6.85326V6.89878C54.1366 7.74823 54.4643 8.57166 55.0644 9.22908C55.6646 9.8865 56.5003 10.3373 57.4294 10.505C56.8259 10.653 56.1925 10.6745 55.5782 10.568C55.8404 11.2985 56.3505 11.9375 57.0373 12.3957C57.7242 12.8539 58.5535 13.1084 59.4095 13.1238C57.9562 14.147 56.161 14.702 54.313 14.6994C53.9853 14.6989 53.6579 14.6809 53.3325 14.6454C55.2099 15.725 57.3938 16.2983 59.6243 16.2973Z" fill="white"/>
+            </g>
+            <g clip-path="url(#clip2_11_231)">
+            <path d="M116.667 1.66579C119.339 1.66579 119.656 1.67629 120.707 1.71831C121.683 1.75682 122.21 1.90387 122.562 2.02641C123.027 2.18746 123.363 2.38353 123.71 2.69513C124.062 3.01024 124.277 3.30783 124.457 3.72447C124.593 4.03958 124.757 4.51573 124.8 5.38752C124.847 6.33283 124.859 6.61643 124.859 9.00772C124.859 11.4025 124.847 11.6861 124.8 12.6279C124.757 13.5032 124.593 13.9759 124.457 14.291C124.277 14.7076 124.058 15.0087 123.71 15.3203C123.359 15.6354 123.027 15.828 122.562 15.989C122.21 16.1116 121.679 16.2586 120.707 16.2971C119.652 16.3391 119.335 16.3496 116.667 16.3496C113.996 16.3496 113.679 16.3391 112.628 16.2971C111.652 16.2586 111.125 16.1116 110.773 15.989C110.308 15.828 109.972 15.6319 109.625 15.3203C109.273 15.0052 109.058 14.7076 108.878 14.291C108.742 13.9759 108.578 13.4997 108.535 12.6279C108.488 11.6826 108.476 11.399 108.476 9.00772C108.476 6.61293 108.488 6.32933 108.535 5.38752C108.578 4.51223 108.742 4.03958 108.878 3.72447C109.058 3.30783 109.277 3.00674 109.625 2.69513C109.976 2.38003 110.308 2.18746 110.773 2.02641C111.125 1.90387 111.656 1.75682 112.628 1.71831C113.679 1.67629 113.996 1.66579 116.667 1.66579ZM116.667 0.0517578C113.953 0.0517578 113.613 0.0622613 112.546 0.104275C111.484 0.146289 110.753 0.30034 110.121 0.520913C109.46 0.751989 108.902 1.05659 108.347 1.55726C107.789 2.05442 107.449 2.55509 107.191 3.14328C106.945 3.71397 106.773 4.36518 106.726 5.3175C106.679 6.27682 106.667 6.58142 106.667 9.01472C106.667 11.448 106.679 11.7526 106.726 12.7084C106.773 13.6608 106.945 14.3155 107.191 14.8827C107.449 15.4744 107.789 15.975 108.347 16.4722C108.902 16.9694 109.46 17.2775 110.117 17.505C110.753 17.7256 111.48 17.8797 112.542 17.9217C113.609 17.9637 113.949 17.9742 116.664 17.9742C119.378 17.9742 119.718 17.9637 120.785 17.9217C121.847 17.8797 122.578 17.7256 123.21 17.505C123.867 17.2775 124.425 16.9694 124.98 16.4722C125.535 15.975 125.878 15.4744 126.132 14.8862C126.378 14.3155 126.55 13.6643 126.597 12.7119C126.644 11.7561 126.656 11.4515 126.656 9.01822C126.656 6.58492 126.644 6.28032 126.597 5.3245C126.55 4.37219 126.378 3.71747 126.132 3.15028C125.886 2.55509 125.546 2.05442 124.988 1.55726C124.433 1.06009 123.875 0.751989 123.218 0.524414C122.582 0.303841 121.855 0.14979 120.792 0.107776C119.722 0.0622613 119.382 0.0517578 116.667 0.0517578Z" fill="white"/>
+            <path d="M116.667 4.41064C113.832 4.41064 111.531 6.47283 111.531 9.01467C111.531 11.5565 113.832 13.6187 116.667 13.6187C119.503 13.6187 121.804 11.5565 121.804 9.01467C121.804 6.47283 119.503 4.41064 116.667 4.41064ZM116.667 12.0012C114.828 12.0012 113.335 10.6637 113.335 9.01467C113.335 7.36562 114.828 6.02818 116.667 6.02818C118.507 6.02818 120 7.36562 120 9.01467C120 10.6637 118.507 12.0012 116.667 12.0012Z" fill="white"/>
+            <path d="M123.207 4.22866C123.207 4.82386 122.667 5.30352 122.007 5.30352C121.343 5.30352 120.808 4.82036 120.808 4.22866C120.808 3.63347 121.347 3.15381 122.007 3.15381C122.667 3.15381 123.207 3.63697 123.207 4.22866Z" fill="white"/>
+            </g>
+            <g clip-path="url(#clip3_11_231)">
+            <path d="M178.52 0.0517578H161.477C160.66 0.0517578 160 0.629449 160 1.34369V16.6823C160 17.3965 160.66 17.9777 161.477 17.9777H178.52C179.336 17.9777 180 17.3965 180 16.6858V1.34369C180 0.629449 179.336 0.0517578 178.52 0.0517578ZM165.934 15.3273H162.965V6.77048H165.934V15.3273ZM164.449 5.60459C163.496 5.60459 162.727 4.91487 162.727 4.06408C162.727 3.2133 163.496 2.52357 164.449 2.52357C165.398 2.52357 166.168 3.2133 166.168 4.06408C166.168 4.91136 165.398 5.60459 164.449 5.60459ZM177.043 15.3273H174.078V11.1679C174.078 10.1771 174.059 8.89918 172.535 8.89918C170.992 8.89918 170.758 9.98104 170.758 11.0979V15.3273H167.797V6.77048H170.641V7.93987H170.68C171.074 7.26764 172.043 6.55691 173.484 6.55691C176.488 6.55691 177.043 8.3285 177.043 10.6323V15.3273Z" fill="white"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_11_231">
+            <rect width="20" height="17.9259" fill="white" transform="translate(0 0.0517578)"/>
+            </clipPath>
+            <clipPath id="clip1_11_231">
+            <rect width="20" height="17.9259" fill="white" transform="translate(53.3325 0.0517578)"/>
+            </clipPath>
+            <clipPath id="clip2_11_231">
+            <rect width="20" height="17.9259" fill="white" transform="translate(106.667 0.0517578)"/>
+            </clipPath>
+            <clipPath id="clip3_11_231">
+            <rect width="20" height="17.9259" fill="white" transform="translate(160 0.0517578)"/>
+            </clipPath>
+            </defs>
+            </svg>
+            
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
